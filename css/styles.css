@@ -1,0 +1,120 @@
+:root {
+  --primary-text-color: #757575;
+  --primary-title-color: #212121;
+  --acent-color: #2196f3;
+}
+body {
+  color: var(--primary-text-color);
+  background-color: #ffffff;
+  font-family: Roboto, sans-serif;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+}
+ul {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+.logo {
+  color: #000000;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  text-decoration: none;
+}
+.logo span {
+  color: var(--acent-color);
+}
+.link {
+  color: var(--primary-title-color);
+  font-weight: 500;
+}
+.link:hover,
+.link:focus {
+  color: var(--acent-color);
+}
+.hero {
+  background-color: #2f303a;
+}
+.hero .title {
+  color: #ffffff;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+.hero .btn {
+  color: #ffffff;
+  background-color: var(--acent-color);
+  cursor: pointer;
+}
+.advantages-list .title {
+  color: var(--primary-title-color);
+  font-weight: 700;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+.advantages-list .subtitle {
+  line-height: 1.71;
+}
+.about-us > .title,
+.team > .title {
+  color: var(--primary-title-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+}
+.team-list .title {
+  color: var(--primary-title-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+}
+.team-list .subtitle {
+  font-size: 16px;
+  line-height: 1.9;
+}
+.footer {
+  background-color: #2f303a;
+}
+.address-list .link {
+  color: rgba(255, 255, 255, 0.6);
+  line-height: 1.71;
+  font-style: normal;
+}
+.address-list .link:hover,
+.address-list .link:focus {
+  color: #ffffff;
+}
+.btn {
+  color: var(--primary-title-color);
+  background-color: #f5f4fa;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  cursor: pointer;
+}
+.btn:active,
+.btn:hover,
+.btn:focus {
+  color: #ffffff;
+  background-color: var(--acent-color);
+}
+.portfolio-list .title {
+  color: var(--primary-title-color);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.portfolio-list .subtitle {
+  color: var(--primary-text-color);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.88;
+}
