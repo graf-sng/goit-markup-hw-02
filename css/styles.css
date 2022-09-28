@@ -1,11 +1,13 @@
 :root {
   --primary-text-color: #757575;
+  --secondary-text-color: #ffffff;
   --primary-title-color: #212121;
   --acent-color: #2196f3;
+  --secondary-bg-color: #f5f4fa;
 }
 body {
   color: var(--primary-text-color);
-  background-color: #ffffff;
+  background-color: var(--secondary-text-color);
   font-family: Roboto, sans-serif;
   font-size: 14px;
   letter-spacing: 0.03em;
@@ -35,11 +37,17 @@ a {
 .link:focus {
   color: var(--acent-color);
 }
+.active_page {
+  color: var(--acent-color);
+}
+.link-contact {
+  color: var(--primary-text-color);
+}
 .hero {
   background-color: #2f303a;
 }
 .hero .title {
-  color: #ffffff;
+  color: var(--secondary-text-color);
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -48,18 +56,23 @@ a {
   text-transform: uppercase;
 }
 .hero .btn {
-  color: #ffffff;
+  color: var(--secondary-text-color);
   background-color: var(--acent-color);
   cursor: pointer;
 }
+
 .advantages-list .title {
   color: var(--primary-title-color);
   font-weight: 700;
+  font-size: inherit;
   line-height: 1.14;
   text-transform: uppercase;
 }
 .advantages-list .subtitle {
   line-height: 1.71;
+}
+.team {
+  background: var(--secondary-bg-color);
 }
 .about-us > .title,
 .team > .title {
@@ -79,21 +92,9 @@ a {
   font-size: 16px;
   line-height: 1.9;
 }
-.footer {
-  background-color: #2f303a;
-}
-.address-list .link {
-  color: rgba(255, 255, 255, 0.6);
-  line-height: 1.71;
-  font-style: normal;
-}
-.address-list .link:hover,
-.address-list .link:focus {
-  color: #ffffff;
-}
 .btn {
   color: var(--primary-title-color);
-  background-color: #f5f4fa;
+  background-color: var(--secondary-bg-color);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
@@ -102,7 +103,7 @@ a {
 .btn:active,
 .btn:hover,
 .btn:focus {
-  color: #ffffff;
+  color: var(--secondary-text-color);
   background-color: var(--acent-color);
 }
 .portfolio-list .title {
@@ -117,4 +118,22 @@ a {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.88;
+}
+.footer {
+  background-color: #2f303a;
+}
+.footer-white,
+.link-footer.footer-white {
+  color: var(--secondary-text-color);
+}
+
+.link-footer {
+  color: rgba(255, 255, 255, 0.6);
+  font-weight: 400;
+  line-height: 1.71;
+  font-style: normal;
+}
+.link-footer:hover,
+.link-footer:focus {
+  color: var(--secondary-text-color);
 }
