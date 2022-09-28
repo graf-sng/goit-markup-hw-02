@@ -82,6 +82,9 @@ a {
   line-height: 1.17;
   text-align: center;
 }
+.team-list > li {
+  background: var(--secondary-text-color);
+}
 .team-list .title {
   color: var(--primary-title-color);
   font-weight: 500;
